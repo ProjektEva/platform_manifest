@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remove-project name="platform/bionic" />
+<remove-project name="platform/bootable/recovery" /> 
+<remove-project name="platform/build" />
+<remove-project name="platform/build/soong" /> 
+<remove-project name="platform/external/perfetto" />
+<remove-project name="platform/external/selinux" />
+<remove-project name="platform/external/tinycompress" /> 
+<remove-project name="platform/frameworks/av" />
+<remove-project name="platform/frameworks/base" /> 
+<remove-project name="platform/frameworks/compile/mclinker" />
+<remove-project name="platform/frameworks/native" />
+<remove-project name="platform/hardware/interfaces" /> 
+<remove-project name="platform/hardware/libhardware" />
+<remove-project name="platform/hardware/libhardware_legacy" />
+<remove-project name="platform/hardware/qcom/gps" /> 
+<remove-project name="platform/hardware/qcom/wlan" />
+<remove-project name="platform/hardware/ril" />
+<remove-project name="platform/packages/apps/Settings" />
+<remove-project name="platform/prebuilts/build-tools" />
+<remove-project name="platform/system/vold" />
+<remove-project name="platform/system/core" />
+
+<project path="build/make" name="platform_build" remote="eva" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+</project>
+
+
+<project path="build/soong" name="platform_build_soong" remote="eva" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+</project>
+
+<project path="bionic" name="platform_bionic" remote="eva" />
+<project path="bootable/recovery" name="platform_bootable_recovery" remote="eva" />
+<project path="external/perfetto" name="platform_external_perfetto" remote="eva" />
+<project path="frameworks/av" name="platform_frameworks_av" remote="eva" />
+<project path="frameworks/base" name="platform_frameworks_base" remote="eva" />
+<project path="frameworks/native" name="platform_frameworks_native" remote="eva" />
+<project path="hardware/interfaces" name="platform_hardware_interfaces" remote="eva" />
+
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
