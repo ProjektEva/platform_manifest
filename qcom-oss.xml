@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="eva" />
+	<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="eva" />
+	<project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="eva" />
+	<project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="eva" />
+	<project path="vendor/qcom/opensource/interfces" name="platform_vendor_qcom_opensource_interfaces" remote="eva" />
+	<project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="eva" />
+	<project path="vendor/qcom/opensource/softap" name="platform_vendor_qcom_opensource_softap" remote="eva" />
+
+</manifest>

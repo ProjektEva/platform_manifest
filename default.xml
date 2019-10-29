@@ -745,4 +745,7 @@
   <!-- Eva -->
   <include name="eva.xml" />
   
+  <!-- QCOM OSS -->
+  <include name="qcom-oss.xml" />
+  
 </manifest>
